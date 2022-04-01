@@ -1,10 +1,85 @@
-#home {
-    display: flex;
-    flex-direction: column;
+body {
+    padding: 2%;
+    background-color: white;
+}
+.brand {
+    padding-left: 5%;
+}
+.brand a {
+    font-size: 25px;
+}
+.nav, .nav-tabs {
     justify-content: center;
+    border-bottom: none!important;
+}
+.navbar-collapse {
+    padding-left: 65%!important;
 }
 
-#profile {
+.tab-content {
+    margin-top: 1%;
+    background-color: gainsboro;
+    
+}
+
+#grid {
+    
+}
+
+#list {
+    margin-left: 33%;
+    margin-right: 33%;
+    width: 45%;
+    
+}
+
+#start {
+    margin-top: 8%;
+}
+
+.col-4 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.card {
+    background-color: white;
+}
+.card-header {
+    height: 10%;
+    padding: 0 2% 0 2%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-body {
+    padding: 0 2% 1% 2%;
+}
+.body-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+.bottom-icons {
+    padding-top: 3%;
+
+}
+
+.form-control {
+    width: 85%!important;
+}
+.card img {
+    
+    height: 100%;
+    width: 100%;
+}
+
+.botones {
+    margin-top: 2%;
+}
+
+hr {
+    margin: 2% 0 2% 0!important;
 }
